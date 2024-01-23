@@ -1,9 +1,9 @@
 
 
-export function Contatos(){
+export function Loja(){
     return(
         <div>
-           
+       
         </div>
     )
 }
