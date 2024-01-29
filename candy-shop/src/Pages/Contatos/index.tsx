@@ -1,9 +1,3 @@
-
-
-export function Contatos(){
-    return(
-        <div>
-           
-        </div>
-    )
+export function Contatos() {
+  return <div>Contatos</div>;
 }

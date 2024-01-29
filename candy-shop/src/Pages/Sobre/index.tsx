@@ -1,9 +1,3 @@
-
-
-export function Sobre(){
-    return(
-        <div>
-        
-       </div>
-    )
+export function Sobre() {
+  return <div>Sobre</div>;
 }

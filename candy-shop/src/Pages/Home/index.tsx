@@ -1,9 +1,3 @@
-
-
-export function Home(){
-    return(
-        <div>
-       
-        </div>
-    )
+export function Home() {
+  return <div>Home</div>;
 }
