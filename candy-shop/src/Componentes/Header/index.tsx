@@ -1,4 +1,6 @@
 import {Link} from 'react-router-dom'
+import { FaWhatsapp } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import './Header.css';
 
 export function Header(){
@@ -12,6 +14,13 @@ export function Header(){
          <Link to="/Sobre">Sobre</Link>
          <Link to="/Contatos">Contatos</Link>
         </div>
+
+        <div className='icons 1'>
+        <FaWhatsapp />
+         <FaInstagram />
+        </div>
+
+        
         </header>
     )
 }
