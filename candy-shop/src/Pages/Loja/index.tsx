@@ -1,9 +1,3 @@
-
-
-export function Loja(){
-    return(
-        <div>
-       
-        </div>
-    )
+export function Loja() {
+  return <div>Loja</div>;
 }
