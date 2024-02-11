@@ -1,37 +1,57 @@
-Header{ 
-    width: 100%;
-    height: 100px;
-    background-color: #121212;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 24px 24px 24px 24px;
-    
+Header {
+  width: 100%;
+  height: 100px;
+  background-color: #4E4A42;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-header a{
-    color: #fff;
-    font-size: 22px;
-    transition: 1s;
+.header-container {
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 24px 0;
 }
 
-header a:hover{
-    transition: 1s;
-    color: rgb(253, 9, 245);
+.header-container a {
+  color: #fff;
+  font-size: 22px;
+  transition: 1s;
+  text-decoration: none;
 }
 
-header a + a{
-    margin-left: 10px;
+.header-container a:hover {
+  transition: 1s;
+  color: #BFA760;
+  /* color: rgb(253, 9, 245); */
 }
 
-.title{
-    cursor: pointer;
-    color: rgb(253, 9, 245);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
+.header-container a {
+  margin: 0 15px;
 }
 
-.icons{
-    font-size: 22px;
+.title {
+  cursor: pointer;
+  color: #BFA760;
+  /* color: rgb(253, 9, 245); */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.header-icons {
+  font-size: 22px;
+}
+
+.header-icon {
+  margin: 0 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.header-icon:hover {
+  cursor: pointer;
+  color: #BFA760;
 }
